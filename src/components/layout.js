@@ -64,7 +64,7 @@ const TemplateWrapper = ({ children }) => (
             <figure className="sidebar__photo">
             <Img fluid={data.datoCmsHome.profilePicture.fluid} />
             </figure>
-              Hello there! <br />
+              <h2>Hello there! </h2> <br />
               Welcome to my portfolio,
               my name is <span>Ben Forsrup</span>
             </div>
@@ -90,7 +90,7 @@ const TemplateWrapper = ({ children }) => (
                     href={profile.url}
                     target="blank"
                     className={`social social--${profile.profileType.toLowerCase()}`}
-                  > </a>
+                  >  </a>
                 ))}
               </p>
               <div className="sidebar__copyright">{data.datoCmsHome.copyright}</div>
