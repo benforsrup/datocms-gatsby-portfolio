@@ -9,7 +9,7 @@ const About = ({ data: { about } }) => (
     <div className="sheet__inner">
       <h1 className="sheet__title">{about.title}</h1>
       <p className="sheet__lead">{about.subtitle}</p>
-      <div className="sheet__gallery">
+      <div className="sheet__about">
         <Img fluid={about.photo.fluid} />
       </div>
       <div
