@@ -17,6 +17,8 @@
     transition: transform 0.2s ease-in-out
     padding: 20px
     background-color: $light-bg-color
+    
+    
 
     .container.is-open &
       transform: translate3d(0px, 0, 0);
@@ -32,8 +34,10 @@
   .container
     display: flex
     padding: 0
+    height: 100vh
     background-color: $gradient-bg
     background-image: $gradient-bg-image
+    
    
 
   .container__mobile-header
@@ -45,9 +49,17 @@
     min-width: 320px
     box-sizing: border-box
     padding: 40px
+    background-color: #eec0c6
+    background-image: linear-gradient(315deg, #eec0c6 10%, #7ee8fa 90%)
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
+    overflow: hidden
+    
 
   .container__body
     flex: 1
+    display:flex
+    flex-direction: column
+    overflow: auto
 
   .container__body--white
     background-color: white
